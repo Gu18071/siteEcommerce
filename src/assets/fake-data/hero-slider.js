@@ -4,24 +4,24 @@ const img3 = require("../images/slider/slide_3.png").default
 
 const heroSliderData = [
     {
-        title: "Polo verde clara",
-        description: "Quer mostrar sua peça também? Com a Css Modas você pode cadastrar a peça que quiser através de nosso admin. O seu verdadeiro estilo está aqui! ",
+        title: "Polo azul clara",
+        description: "Todos os tamanhos disponíveis para a polo azul clara. O que está esperando para comprar? O seu verdadeiro estilo está aqui!",
         img: img1,
-        color: "lightgreen",
-        path: "/catalog/polo-verde-01"
+        color: "blue",
+        path: "/catalog/polo-azul-clara"
     },
     {
-        title: "Polo preta",
-        description: "Quer mostrar sua peça também? Com a Css Modas você pode cadastrar a peça que quiser através de nosso admin. O seu verdadeiro estilo está aqui!",
+        title: "Polo rosa clara",
+        description: "Todos os tamanhos disponíveis para a polo rosa clara. O que está esperando para comprar? O seu verdadeiro estilo está aqui!",
         img: img2,
-        path: "/catalog/polo-preta-02",
-        color: "grey"
+        path: "/catalog/polo-rosa-clara",
+        color: "pink"
     },
     {
-        title: "Polo marrom clara",
-        description: "Quer mostrar sua peça também? Com a Css Modas você pode cadastrar a peça que quiser através de nosso admin. O seu verdadeiro estilo está aqui!",
+        title: "Polo laranja",
+        description: "Todos os tamanhos disponíveis para a polo laranja. O que está esperando para comprar? O seu verdadeiro estilo está aqui!",
         img: img3,
-        path: "/catalog/polo-marrom-03",
+        path: "/catalog/polo-laranja",
         color: "brown"
     }
 ]

@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 import Helmet from '../components/Helmet';
 import HeroSlider from '../components/HeroSlider'
 import heroSliderData from '../assets/fake-data/hero-slider'
-import Section, { SectionTitle, SectionBody } from '../components/Section'
+import Section, {  SectionBody } from '../components/Section'
 import Grid from '../components/Grid';
 import productData from '../assets/fake-data/products';
 import ProductCard from '../components/ProductCard';
@@ -27,10 +27,7 @@ const Home = () => {
             {}
 
             <Section>
-                <SectionTitle>
-                              Empresa: Elegance
-                </SectionTitle>
-
+                
                 <SectionBody>
                     <Grid
                         col={4}
@@ -55,9 +52,6 @@ const Home = () => {
             </Section>
 
             <Section>
-                <SectionTitle>
-                              Empresa: Ltus
-                </SectionTitle>
 
                 <SectionBody>
                     <Grid
@@ -91,9 +85,7 @@ const Home = () => {
             </Section>
 
             <Section>
-                <SectionTitle>
-                              Empresa: Octopus
-                </SectionTitle>
+               
 
                 <SectionBody>
                     <Grid
